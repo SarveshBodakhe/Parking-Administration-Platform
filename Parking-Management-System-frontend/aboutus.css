@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Century Gothic;
+}
+.header {
+  background-image: url(img/smart-parking-bengaluru.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+ul {
+  float: right;
+  list-style-type: none;
+  margin-top: 25px;
+}
+ul li {
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  color: #eeebe9;
+  text-decoration: solid;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+ul li a:hover {
+  background-color: #fff;
+  color: #000;
+}
+ul li.active a {
+  background-color: #fff;
+  color: rgb(159, 40, 40);
+}
+.logo img {
+  float: left;
+  width: 80px;
+  height: auto;
+}
+.main {
+  max-width: 950px;
+  margin: auto;
+}
+.title {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: transition(-50%, -50%);
+}
+.title h1 {
+  color: #050505;
+  font-size: 50px;
+}
+.title h2 {
+  color: #010101;
+  font-size: 30px;
+}
+.button {
+  position: absolute;
+  top: 57%;
+  left: 32%;
+  transform: transition(-50%, -50%);
+}
+.btn {
+  border: 1px solid #fff;
+  padding: 10px 30px;
+  color: #fff;
+  text-decoration: none;
+  transition: 0.6s ease;
+}
+
+.btn:hover {
+  background-color: #fff;
+  color: #000;
+}
+.Services {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+h1 {
+  font-size: 36px;
+  font-weight: 600;
+}
+p {
+  color: rgb(11, 11, 11);
+  font-size: 17px;
+  font-weight: 300;
+
+  padding: 10px;
+}
+
+.row {
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-between;
+}
+.Services-col {
+  color: rgb(255, 255, 255);
+  flex-basis: 31%;
+  background: #444141;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.Services-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}

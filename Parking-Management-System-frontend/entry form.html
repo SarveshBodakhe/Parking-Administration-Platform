@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="entry.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="js/entry form.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Registration</div>
+    <div class="content">
+      <form method="post">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name<sup>*</sup></span>
+            <input type="text" name="name" value="" placeholder="Enter your name" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Vehicle Number<sup>*</sup></span>
+            <input type="text" name="vehicleno" value="" placeholder="Enter vehicle number" required />
+          </div>
+          <div class="input-box">
+            <span class="details">E-mail<sup>*</sup></span>
+            <input type="email" name="email" value="" placeholder="Enter your email" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Phone Number<sup>*</sup></span>
+            <input type="text" name="phonenumber" value="" placeholder="Enter your number" required />
+          </div>
+          <div class="input-box">
+            <span class="details">Time<sup>*</sup></span>
+            <select name="time" required>
+              <option selected hidden value="">Select Time</option>
+              <option value="1Hr">1 Hr</option>
+              <option value="2Hr">2 Hr</option>
+              <option value="3Hr">3 Hr</option>
+              <option value="4Hr">4 Hr</option>
+              <option value="5Hr">5 Hr</option>
+              <option value="6Hr">6 Hr</option>
+            </select>
+          </div>
+        </div>
+        <h5>*Note:-We charge on hourly basis <br />charges:- 50₹/hr</h5>
+        <div class="button">
+          <input type="submit" name="register" value="submit" />
+        </div>
+      </form>
+    </div>
+    <div class="button1">
+      <a href="index.html"><button>Back</button></a>
+    </div>
+  </div>
+</body>
+
+</html>
